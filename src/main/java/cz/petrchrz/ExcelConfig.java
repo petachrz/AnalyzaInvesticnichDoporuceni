@@ -8,13 +8,13 @@ package cz.petrchrz;
 public class ExcelConfig {
 
     /** Cesta k Excel souboru */
-    private static final String filePath = "Cilove_ceny_CHRZ_data.xlsx";
+    private static final String filePath = "NAZEV_ZDROJOVEHO_SOUBORU.xlsx";
 
     /** Názvy listů obsahujících cílové ceny akcií */
-    private static final String[] TPsheetNames = {"CEZ_ciloveCeny", "ERSTE_ciloveCeny", "KB_ciloveCeny", "TABAK_ciloveCeny","VIG_ciloveCeny"};
+    private static final String[] TPsheetNames = {"NAZVY_LISTU_S_CILOVYMI_CENAMI"};
 
     /** Názvy listů obsahujících historická data o vývoji akcií */
-    private static final String[] StocksheetNames = {"CEZ_vyvoj","ERSTE_vyvoj","KB_vyvoj","TABAK_vyvoj","VIG_vyvoj"};
+    private static final String[] StocksheetNames = {"NAZVY_LISTU_S_TRZNIMI_DATY"};
 
 
     public static String getFilePath() {
